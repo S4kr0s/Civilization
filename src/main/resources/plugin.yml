@@ -1,0 +1,16 @@
+name: CivilizationProtection
+version: 1.0
+api-version: 1.13
+main: de.sakros.civilization.Civilization
+depend: [Lands]
+
+commands:
+    visual-toggle:
+      description: Toggles Reinforcement Visuals
+      usage: /<command>
+    removeprotection:
+      description: Removes an Protection.
+      usage: /<command> <world> <x> <y> <z>
+    trust:
+      description: Trusts/Untrusts someone to/from your chunk.
+      usage: /<command> <playername>

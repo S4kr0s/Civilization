@@ -1,0 +1,4 @@
+reinforcement_explosion_strength: 8 # How many "breaks" should an explosion incur on the reinforced block? Strength lowers as explosion gets farther.
+reinforcement_blocks_can_burn: true # Can reinforced blocks burn? If enabled, fire will take x times longer to break a block (x = reinforcement_break_counter)
+reinforcement_block: OBSIDIAN # What block is used to reinforce another? Refer to: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+reinforcement_block_drop_chance: 100 # Chance of dropping [reinforcement_block] when a reinforced block is destroyed (in percent)
